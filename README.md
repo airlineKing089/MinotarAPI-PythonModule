@@ -1,5 +1,5 @@
 # MinotarAPI-PythonModule
-A Python module aiming to implement the Minotar API [minotar.net](https://minotar.net/).
+A Python module aiming to implement the Minotar API [minotar.net](https://minotar.net/), [Documentation](https://github.com/airlineKing089/MinotarAPI-PythonModule/wiki)
 
 ## installation
 1. Install the requests module.
@@ -8,7 +8,7 @@ A Python module aiming to implement the Minotar API [minotar.net](https://minota
     - A Command Prompt window should open. In it type: `pip install requests`.
 
 2. Add the MinotarAPI Module to your project.
-    - Download `MinotarAPI.py` from [latest Release]().
+    - Download `MinotarAPI.py` from [latest Release](https://github.com/airlineKing089/MinotarAPI-PythonModule/releases).
     - Copy it to your project directory.
     - Paste `import MinotarAPI as minotar` to the top of your Python script.
     - You have successfully imported the MinotarAPI!
