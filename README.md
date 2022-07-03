@@ -1,5 +1,5 @@
 # MinotarAPI-PythonModule
-A Python module aiming to implement the Minotar API [minotar.net](https://minotar.net/), [Documentation](https://github.com/airlineKing089/MinotarAPI-PythonModule/wiki)
+A Python module aiming to implement the Minotar API [minotar.net](https://minotar.net/).
 
 ## installation
 1. Install the requests module.
@@ -24,3 +24,12 @@ username = input("Minecraft Username: ")
 # downloads the skin
 minotar.download.skin(username)
 ```
+
+## Documentation
+
+### default class
+- `minotar.default.Steve()` [Downloads the default steve skin],
+- `minotar.default.Alex()` [Downlaods the default alex skin],
+
+### download class
+- `minotar.download.Skin(username)` [Downloads the skin, requires the username to be entered],
