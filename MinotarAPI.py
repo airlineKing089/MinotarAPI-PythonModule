@@ -36,3 +36,12 @@ class download():
             shutil.move('Skin.png', f'{username}(skin).png')
         else:
             raise err_connection_fail
+    
+    def avatar(username, size):
+        url = requests.get(f'https://minotar.net/avatar/{username}/{size}.png')
+        if url.status_code != '404':
+            with open('Avatar.png', 'wb') as f:
+                f.write(url.content)
+            shutil.move('Avatar.png', f'{username}(avatar ({size})')
+        else:
+            raise err_connection_fail
