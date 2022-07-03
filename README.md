@@ -32,4 +32,5 @@ minotar.download.skin(username)
 - `minotar.default.Alex()` [Downlaods the default alex skin],
 
 ### download class
-- `minotar.download.Skin(username)` [Downloads the skin, requires the username to be entered],
+- `minotar.download.skin(username)` [Downloads the skin, requires the username to be entered],
+- `minotar.download.avatar(username, size)` [Downloads the avatar, requires the size in pixels and username to be entered],
